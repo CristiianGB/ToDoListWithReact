@@ -1,0 +1,24 @@
+body {
+  background-color: rgba(240, 235, 229, 0.699);
+  font-family: "Ibarra Real Nova", serif;
+}
+li {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  cursor: pointer;
+}
+i:hover {
+  color: rgba(255, 0, 0, 0.856);
+}
